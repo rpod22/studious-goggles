@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: 'outfit';
+}
+
+body {
+  background: hsl(212, 45%, 89%)
+}
+
+.container {
+  background: white;
+  height: 525px;
+  width: 350px;
+  border-radius: 20px;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.qrcode {
+  width:300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top:20px;
+  opacity: 0.9;
+}
+
+.header {
+  font-size:12px;
+}
+
+.paragraph {
+  margin-top: 25px;
+  color: grey;
+}
